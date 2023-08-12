@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+  // width: 100%;
+  padding: 1em;
+  background-color: green;
+}
