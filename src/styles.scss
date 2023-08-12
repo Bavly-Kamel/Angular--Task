@@ -1,17 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
-  // background-color: #777;
+  font-family: "Rubik", sans-serif;
 }
 
 .main-container > *:not(router-outlet) {
   display: block;
   min-height: 100%;
-  width: clamp(100px, 100%, 900px);
+  width: clamp(100px, 90%, 800px);
   margin-inline: auto;
+  // margin-left: 15px;
+  // margin-right: 15px;
+  transition: all 0.5s;
+}
+
+.btn {
+  all: unset;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(235, 142, 20);
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: aqua;
 }

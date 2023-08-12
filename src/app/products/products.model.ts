@@ -1,11 +1,11 @@
 export interface ProductsModel {
-  products: ProdutModel[];
+  products: ProductModel[];
   total: number;
   skip: number;
   limit: number;
 }
 
-export interface ProdutModel {
+export interface ProductModel {
   id: number;
   title: string;
   description: string;

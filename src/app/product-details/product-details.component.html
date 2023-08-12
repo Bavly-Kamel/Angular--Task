@@ -1,0 +1,11 @@
+<ng-container *ngIf="product$ | async as Product">
+  <h1>{{ Product.brand }}</h1>
+  <h2>{{ Product.category }}</h2>
+  <h3>{{ Product.title }}</h3>
+  <img [src]="Product.thumbnail" alt="product-image" />
+  <h4>{{ Product.description }}</h4>
+  <h4>price: {{ Product.price }}</h4>
+  <h4>Discount: {{ Product.discountPercentage }}</h4>
+  <h4>Rating: {{ Product.rating }}</h4>
+  <h4>Left in stok stock:{{ Product.stock }}</h4>
+</ng-container>
