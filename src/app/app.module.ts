@@ -9,6 +9,7 @@ import { FooterComponent } from './core/footer/footer.component';
 import { SharedModule } from './shared/shared.module';
 import { CardsComponent } from './cards/cards.component';
 import { ProductsModule } from './products/products.module';
+import { ProductDetailsModule } from './product-details/product-details.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ProductsModule } from './products/products.module';
     AppRoutingModule,
     SharedModule,
     ProductsModule,
+    ProductDetailsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

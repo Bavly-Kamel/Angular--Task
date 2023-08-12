@@ -1,9 +1,10 @@
 <!-- <h1>products works!</h1> -->
 
 <ng-container *ngIf="data">
-  <div *ngFor="let product of data.products" class="product">
-    <p>
-      {{ product.title }}
-    </p>
-  </div>
+  <app-product
+    *ngFor="let product of data.products"
+    [product]="product"
+    class="product"
+  >
+  </app-product>
 </ng-container>
