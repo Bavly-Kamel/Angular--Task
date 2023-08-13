@@ -12,3 +12,10 @@
   cursor: pointer;
   padding: 0.5rem 1rem;
 }
+
+:host {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 20px;
+  // justify-content: center;
+}

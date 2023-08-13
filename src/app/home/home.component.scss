@@ -7,3 +7,146 @@
   // left: 50%;
   // transform: translate(-50%, -50%);
 }
+h2,
+h3 {
+  margin-left: 15px;
+}
+
+.test::after {
+  content: "";
+  animation: typing 18s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "";
+  }
+  3.174603174603175% {
+    content: "w";
+  }
+  6.34920634920635% {
+    content: "we";
+  }
+  9.523809523809526% {
+    content: "wel";
+  }
+  12.6984126984127% {
+    content: "welc";
+  }
+  15.873015873015873% {
+    content: "welco";
+  }
+  19.04761904761905% {
+    content: "welcom";
+  }
+  22.222222222222225% {
+    content: "welcome";
+  }
+  20.634920634920636% {
+    content: "welcome";
+  }
+  22.22222222222222% {
+    content: "welcom";
+  }
+  23.80952380952381% {
+    content: "welco";
+  }
+  25.3968253968254% {
+    content: "welc";
+  }
+  26.984126984126988% {
+    content: "wel";
+  }
+  28.571428571428573% {
+    content: "we";
+  }
+  30.15873015873016% {
+    content: "w";
+  }
+  33.333333333333336% {
+    content: "";
+  }
+  37.77777777777778% {
+    content: "T";
+  }
+  42.22222222222223% {
+    content: "To";
+  }
+  46.66666666666667% {
+    content: "To-";
+  }
+  51.111111111111114% {
+    content: "To-M";
+  }
+  55.55555555555556% {
+    content: "To-My";
+  }
+  53.333333333333336% {
+    content: "To-My";
+  }
+  55.55555555555556% {
+    content: "To-M";
+  }
+  57.777777777777786% {
+    content: "To-";
+  }
+  60.00000000000001% {
+    content: "To";
+  }
+  62.22222222222223% {
+    content: "T";
+  }
+  66.66666666666667% {
+    content: "";
+  }
+  69.44444444444444% {
+    content: "P";
+  }
+  72.22222222222223% {
+    content: "Pl";
+  }
+  75% {
+    content: "Pla";
+  }
+  77.77777777777779% {
+    content: "Plat";
+  }
+  80.55555555555556% {
+    content: "Platf";
+  }
+  83.33333333333334% {
+    content: "Platfo";
+  }
+  86.11111111111111% {
+    content: "Platfor";
+  }
+  88.8888888888889% {
+    content: "Platform";
+  }
+  87.5% {
+    content: "Platform";
+  }
+  88.88888888888889% {
+    content: "Platfor";
+  }
+  90.27777777777777% {
+    content: "Platfo";
+  }
+  91.66666666666667% {
+    content: "Platf";
+  }
+  93.05555555555556% {
+    content: "Plat";
+  }
+  94.44444444444444% {
+    content: "Pla";
+  }
+  95.83333333333333% {
+    content: "Pl";
+  }
+  97.22222222222223% {
+    content: "P";
+  }
+  100% {
+    content: "";
+  }
+}

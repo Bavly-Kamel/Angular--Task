@@ -6,5 +6,25 @@
   position: sticky;
   z-index: 10;
   padding: 1em;
-  background-color: green;
+  // background-color: green;
+}
+
+nav {
+  width: clamp(200px, 100%, 1200px);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  position: sticky;
+  z-index: 10;
+  padding: 1em;
+  // background-color: green;
+  box-shadow: -4px -1px 24px 0px rgba(100, 100, 100, 0.75);
+  -webkit-box-shadow: -4px -1px 24px 0px rgba(100, 100, 100, 0.75);
+  -moz-box-shadow: -4px -1px 24px 0px rgba(100, 100, 100, 0.75);
+}
+
+.btn {
+  margin-left: 15px;
 }
